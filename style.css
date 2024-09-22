@@ -1,0 +1,46 @@
+:root {
+  --border-radius: 8px;
+  --padding: 15px 20px;
+  --border: 1px solid purple;
+}
+h1 {
+  color: rgb(194, 19, 194);
+  font-size: 55px;
+}
+
+.name {
+  font-size: 70px;
+  padding-bottom: 5px;
+  color: purple;
+}
+
+.hello {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+.contact {
+  margin: 20px;
+  border: var(--border);
+  padding: var(--padding);
+  border-radius: var(--border-radius);
+  background: violet;
+  box-shadow: 2px 2px 4px purple;
+
+  color: white;
+  text-decoration: none;
+}
+.about {
+  margin: 20px;
+  border: var(--border);
+  padding: var(--padding);
+  border-radius: var(--border-radius);
+  box-shadow: 2px 2px 4px violet;
+
+  color: violet;
+  text-decoration: none;
+}
